@@ -12,6 +12,10 @@ const Task = sequelize.define(
     user_id: {
       type: DataTypes.BIGINT,
       allowNull: false,
+      validate: {
+        notEmpty: { msg: "Task user id be empty" },
+        len: [1, 10000],
+      },
       references: {
         model: "Users",
         key: "id",
@@ -21,10 +25,18 @@ const Task = sequelize.define(
     task_name: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        notEmpty: { msg: "Task name cannot be empty" },
+        len: [1, 50],
+      },
     },
     task_desc: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
+      validate: {
+        notEmpty: { msg: "Task desc cannot be empty" },
+        len: [1, 100],
+      },
     },
     status: {
       type: DataTypes.BOOLEAN,
