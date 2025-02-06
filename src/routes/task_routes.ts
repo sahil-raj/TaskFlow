@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import Task from "../models/Task";
+import Task from "../models/task";
 
 const router = express.Router();
 
