@@ -42,6 +42,9 @@ The application will be running at http://localhost:3000.
 
 ![Endpoints](https://zmxnqkbujmjwilcmqawb.supabase.co/storage/v1/object/public/testmybuc//Screenshot%202025-02-07%20at%206.33.04%20AM.png)
 
+## Database Schema
+
+![Schema](https://zmxnqkbujmjwilcmqawb.supabase.co/storage/v1/object/public/testmybuc//Screenshot%202025-02-07%20at%207.16.01%20AM.png)
 
 ## License
 
