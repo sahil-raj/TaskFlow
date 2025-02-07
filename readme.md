@@ -46,3 +46,5 @@ The application will be running at http://localhost:3000.
 ## License
 
 This project is licensed under the MIT License.
+
+## API can be slow initially sometimes as its is deployed on render
